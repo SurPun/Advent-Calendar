@@ -1,0 +1,117 @@
+/* Custom Font */
+@font-face {
+  font-family: "Urbane Rounded Demi";
+  src: url("./fonts/UrbaneRounded-DemiBold.eot");
+  src: local("Urbane Rounded Demi Bold"), local("UrbaneRounded-DemiBold"),
+    url("./fonts/UrbaneRounded-DemiBold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/UrbaneRounded-DemiBold.woff2") format("woff2"),
+    url("./fonts/UrbaneRounded-DemiBold.woff") format("woff"),
+    url("./fonts/UrbaneRounded-DemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  text-align: center;
+  /* background-image: url(./Images//back-ground.avif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+
+  font-family: "Urbane Rounded Demi";
+  font-size: 22px;
+}
+
+button {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+span:hover {
+  background-color: rgb(231, 182, 182);
+}
+
+h1 {
+  letter-spacing: 4px;
+  font-size: 50px;
+}
+
+#selectDateBtn {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 22px;
+}
+
+#selectDateBtn:hover {
+  background-color: rgb(231, 182, 182);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(12, 100px);
+  justify-content: center;
+  align-content: center;
+  margin-top: 25px;
+}
+
+.grid__item {
+  position: relative;
+  font-size: 15px;
+}
+
+.grid__item-door {
+  position: absolute;
+  top: -1px;
+  bottom: 0;
+  left: -1px;
+  right: 0;
+  background-color: rgb(210, 116, 116);
+  border: 2px dotted #333;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 16px;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6,
+.card-7,
+.card-8,
+.card-9,
+.card-10,
+.card-11,
+.card-12,
+.card-13,
+.card-14,
+.card-15,
+.card-16,
+.card-17,
+.card-18,
+.card-19,
+.card-20,
+.card-21,
+.card-22,
+.card-23,
+.card-24,
+.card-25 {
+  top: 1px;
+  bottom: 0;
+  left: 1px;
+  right: 0;
+  border: 1px dashed #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
