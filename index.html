@@ -28,6 +28,7 @@
       />
 
       <button id="selectDateBtn" onclick="selectDate()">Select</button>
+      <button id="reset-storage" onclick="delStorage()">Reset</button>
     </header>
 
     <p>This Christmas:</p>
@@ -37,8 +38,10 @@
       <div class="grid">
         <!-- Card 1 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(1)">1</span>
-          <span class="card-1"
+          <span class="grid__item-door" onclick="handleClick(1); cookies1()"
+            >1</span
+          >
+          <span class="card-1" id="card-1"
             ><img
               src="./Images/logo/cancer-research.jpg"
               alt="cancer research logo"
@@ -49,8 +52,10 @@
 
         <!-- Card 2 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(2)">2</span>
-          <span class="card-2"
+          <span class="grid__item-door" onclick="handleClick(2); cookies2()"
+            >2</span
+          >
+          <span class="card-2" id="card-2"
             ><img
               src="./Images/logo/saint-john.jpg"
               alt="saint john ambulance logo"
@@ -60,8 +65,10 @@
 
         <!-- Card 3 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(3)">3</span>
-          <span class="card-3"
+          <span class="grid__item-door" onclick="handleClick(3); cookies3()"
+            >3</span
+          >
+          <span class="card-3" id="card-3"
             ><img
               src="./Images/logo/mac-millan.jpg"
               alt="macmillan cancer logo"
@@ -71,8 +78,10 @@
 
         <!-- Card 4 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(4)">4</span>
-          <span class="card-4"
+          <span class="grid__item-door" onclick="handleClick(4); cookies4()"
+            >4</span
+          >
+          <span class="card-4" id="card-4"
             ><img
               src="./Images/logo/british-red-cross.jpg"
               alt="british red cross logo"
@@ -82,8 +91,10 @@
 
         <!-- Card 5 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(5)">5</span>
-          <span class="card-5"
+          <span class="grid__item-door" onclick="handleClick(5); cookies5()"
+            >5</span
+          >
+          <span class="card-5" id="card-5"
             ><img
               src="./Images/logo/british-heart.jpg"
               alt="british heart foundation logo"
@@ -93,8 +104,10 @@
 
         <!-- Card 6 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(6)">6</span>
-          <span class="card-6"
+          <span class="grid__item-door" onclick="handleClick(6); cookies6()"
+            >6</span
+          >
+          <span class="card-6" id="card-6"
             ><img
               src="./Images/logo/alzheimers-research.jpg"
               alt="alzheimers research logo"
@@ -104,8 +117,10 @@
 
         <!-- Card 7 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(7)">7</span>
-          <span class="card-7"
+          <span class="grid__item-door" onclick="handleClick(7); cookies7()"
+            >7</span
+          >
+          <span class="card-7" id="card-7"
             ><img
               src="./Images/logo/wwf.jpg"
               alt="world wild life fund logo"
@@ -116,8 +131,10 @@
 
         <!-- Card 8 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(8)">8</span>
-          <span class="card-8"
+          <span class="grid__item-door" onclick="handleClick(8); cookies8()"
+            >8</span
+          >
+          <span class="card-8" id="card-8"
             ><img
               src="./Images/logo/children-in-need.png"
               alt="children in need logo"
@@ -127,8 +144,10 @@
 
         <!-- Card 9 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(9)">9</span>
-          <span class="card-9"
+          <span class="grid__item-door" onclick="handleClick(9); cookies9()"
+            >9</span
+          >
+          <span class="card-9" id="card-9"
             ><img
               src="./Images/logo/prostate-cancer.jpg"
               alt="prostate cancer logo"
@@ -138,97 +157,135 @@
 
         <!-- Card 10 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(10)">10</span>
-          <span class="card-10">Item 10</span>
+          <span class="grid__item-door" onclick="handleClick(10); cookies10()"
+            >10</span
+          >
+          <span class="card-10" id="card-10"
+            ><img
+              src="./Images/logo/give-love.webp"
+              alt="give love foundation logo"
+              width="100px"
+              alt=""
+          /></span>
         </button>
 
         <!-- Card 11 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(11)">11</span>
+          <span class="grid__item-door" onclick="handleClick(11); cookies11()"
+            >11</span
+          >
           <span class="card-11">Item 11</span>
         </button>
 
         <!-- Card 12 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(12)">12</span>
+          <span class="grid__item-door" onclick="handleClick(12); cookies12()"
+            >12</span
+          >
           <span class="card-12">Item 12</span>
         </button>
 
         <!-- Card 13 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(13)">13</span>
+          <span class="grid__item-door" onclick="handleClick(13); cookies13()"
+            >13</span
+          >
           <span class="card-13">Item 13</span>
         </button>
 
         <!-- Card 14 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(14)">14</span>
+          <span class="grid__item-door" onclick="handleClick(14); cookies14()"
+            >14</span
+          >
           <span class="card-14">Item 14</span>
         </button>
 
         <!-- Card 15 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(15)">15</span>
+          <span class="grid__item-door" onclick="handleClick(15); cookies15()"
+            >15</span
+          >
           <span class="card-15">Item 15</span>
         </button>
 
         <!-- Card 16 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(16)">16</span>
+          <span class="grid__item-door" onclick="handleClick(16); cookies16()"
+            >16</span
+          >
           <span class="card-16">Item 16</span>
         </button>
 
         <!-- Card 17 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(17)">17</span>
+          <span class="grid__item-door" onclick="handleClick(17); cookies17()"
+            >17</span
+          >
           <span class="card-17">Item 17</span>
         </button>
 
         <!-- Card 18 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(18)">18</span>
+          <span class="grid__item-door" onclick="handleClick(18); cookies18()"
+            >18</span
+          >
           <span class="card-18">Item 18</span>
         </button>
 
         <!-- Card 19 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(19)">19</span>
+          <span class="grid__item-door" onclick="handleClick(19); cookies19()"
+            >19</span
+          >
           <span class="card-19">Item 19</span>
         </button>
 
         <!-- Card 20 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(20)">20</span>
+          <span class="grid__item-door" onclick="handleClick(20); cookies20()"
+            >20</span
+          >
           <span class="card-20">Item 20</span>
         </button>
 
         <!-- Card 21 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(21)">21</span>
+          <span class="grid__item-door" onclick="handleClick(21); cookies21()"
+            >21</span
+          >
           <span class="card-21">Item 21</span>
         </button>
 
         <!-- Card 22 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(22)">22</span>
+          <span class="grid__item-door" onclick="handleClick(22); cookies22()"
+            >22</span
+          >
           <span class="card-22">Item 22</span>
         </button>
 
         <!-- Card 23 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(23)">23</span>
+          <span class="grid__item-door" onclick="handleClick(23); cookies23()"
+            >23</span
+          >
           <span class="card-23">Item 23</span>
         </button>
 
         <!-- Card 24 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(24)">24</span>
+          <span class="grid__item-door" onclick="handleClick(24); cookies24()"
+            >24</span
+          >
           <span class="card-24">Item 24</span>
         </button>
 
         <!-- Card 25 -->
         <button class="grid__item">
-          <span class="grid__item-door" onclick="handleClick(25)">25</span>
+          <span class="grid__item-door" onclick="handleClick(25); cookies25()"
+            >25</span
+          >
           <span class="card-25">Item 25</span>
         </button>
       </div>

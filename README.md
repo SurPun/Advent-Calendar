@@ -13,4 +13,4 @@ Live Page [Here]()
 - [ ] Videos should only play after you open the door.
 - [x] If you want, you can animate the door ‘opening’, but that’s not mandatory!
 - [x] Only allow the user to click on the window when the door representing the day of the month is exactly, or after, the simulated current date (i.e. you can only open the door for the 14th of December, if the simulated date is on or after the 14th of december).
-- [ ] Track which users have opened which doors between refreshes by loading and saving the state to the browser’s localStorage.
+- [x] Track which users have opened which doors between refreshes by loading and saving the state to the browser’s localStorage.
