@@ -14,13 +14,14 @@
 
 body {
   text-align: center;
-  /* background-image: url(./Images//back-ground.avif);
+  background-image: url(./Images/background.avif);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; */
+  background-size: cover;
 
   font-family: "Urbane Rounded Demi";
   font-size: 22px;
+  /* color: white; */
 }
 
 button {
@@ -36,7 +37,7 @@ span:hover {
 
 h1 {
   letter-spacing: 4px;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 #selectDateBtn,
@@ -57,7 +58,7 @@ h1 {
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 100px);
-  grid-template-rows: repeat(12, 100px);
+  grid-template-rows: repeat(5, 100px);
   justify-content: center;
   align-content: center;
   margin-top: 25px;
@@ -116,4 +117,30 @@ h1 {
   align-items: center;
   justify-content: center;
   padding: 16px;
+}
+
+/* Model Surprise */
+#modal {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 250px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  margin: 2% auto;
+  max-width: 600px;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+footer {
+  font-size: 30px;
+  margin-top: 35px;
 }

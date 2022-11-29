@@ -32,7 +32,7 @@ const handleClick = function (index) {
     }
   }
 
-  for (let i = 20; i < 26; i++) {
+  for (let i = 20; i < 25; i++) {
     if (
       index === i &&
       currentDate.value >= `2022-12-${i}` &&
@@ -235,8 +235,8 @@ if (initialValue10) {
 function cookies10() {
   if (
     card10.style.position === "" &&
-    currentDate.value >= `2022-12-010` &&
-    dayHeader.innerText >= `2022-12-010`
+    currentDate.value >= `2022-12-10` &&
+    dayHeader.innerText >= `2022-12-10`
   ) {
     card10.style.position = "absolute";
   }
@@ -254,8 +254,8 @@ if (initialValue11) {
 function cookies11() {
   if (
     card11.style.position === "" &&
-    currentDate.value >= `2022-12-011` &&
-    dayHeader.innerText >= `2022-12-011`
+    currentDate.value >= `2022-12-11` &&
+    dayHeader.innerText >= `2022-12-11`
   ) {
     card11.style.position = "absolute";
   }
@@ -273,8 +273,8 @@ if (initialValue12) {
 function cookies12() {
   if (
     card12.style.position === "" &&
-    currentDate.value >= `2022-12-012` &&
-    dayHeader.innerText >= `2022-12-012`
+    currentDate.value >= `2022-12-12` &&
+    dayHeader.innerText >= `2022-12-12`
   ) {
     card12.style.position = "absolute";
   }
@@ -292,8 +292,8 @@ if (initialValue13) {
 function cookies13() {
   if (
     card13.style.position === "" &&
-    currentDate.value >= `2022-12-013` &&
-    dayHeader.innerText >= `2022-12-013`
+    currentDate.value >= `2022-12-13` &&
+    dayHeader.innerText >= `2022-12-13`
   ) {
     card13.style.position = "absolute";
   }
@@ -311,8 +311,8 @@ if (initialValue14) {
 function cookies14() {
   if (
     card14.style.position === "" &&
-    currentDate.value >= `2022-12-014` &&
-    dayHeader.innerText >= `2022-12-014`
+    currentDate.value >= `2022-12-14` &&
+    dayHeader.innerText >= `2022-12-14`
   ) {
     card14.style.position = "absolute";
   }
@@ -330,8 +330,8 @@ if (initialValue15) {
 function cookies15() {
   if (
     card15.style.position === "" &&
-    currentDate.value >= `2022-12-015` &&
-    dayHeader.innerText >= `2022-12-015`
+    currentDate.value >= `2022-12-15` &&
+    dayHeader.innerText >= `2022-12-15`
   ) {
     card15.style.position = "absolute";
   }
@@ -349,8 +349,8 @@ if (initialValue16) {
 function cookies16() {
   if (
     card16.style.position === "" &&
-    currentDate.value >= `2022-12-016` &&
-    dayHeader.innerText >= `2022-12-016`
+    currentDate.value >= `2022-12-16` &&
+    dayHeader.innerText >= `2022-12-16`
   ) {
     card16.style.position = "absolute";
   }
@@ -368,8 +368,8 @@ if (initialValue17) {
 function cookies17() {
   if (
     card17.style.position === "" &&
-    currentDate.value >= `2022-12-017` &&
-    dayHeader.innerText >= `2022-12-017`
+    currentDate.value >= `2022-12-17` &&
+    dayHeader.innerText >= `2022-12-17`
   ) {
     card17.style.position = "absolute";
   }
@@ -387,8 +387,8 @@ if (initialValue18) {
 function cookies18() {
   if (
     card18.style.position === "" &&
-    currentDate.value >= `2022-12-018` &&
-    dayHeader.innerText >= `2022-12-018`
+    currentDate.value >= `2022-12-18` &&
+    dayHeader.innerText >= `2022-12-18`
   ) {
     card18.style.position = "absolute";
   }
@@ -406,8 +406,8 @@ if (initialValue19) {
 function cookies19() {
   if (
     card19.style.position === "" &&
-    currentDate.value >= `2022-12-019` &&
-    dayHeader.innerText >= `2022-12-019`
+    currentDate.value >= `2022-12-19` &&
+    dayHeader.innerText >= `2022-12-19`
   ) {
     card19.style.position = "absolute";
   }
@@ -425,8 +425,8 @@ if (initialValue20) {
 function cookies20() {
   if (
     card20.style.position === "" &&
-    currentDate.value >= `2022-12-020` &&
-    dayHeader.innerText >= `2022-12-020`
+    currentDate.value >= `2022-12-20` &&
+    dayHeader.innerText >= `2022-12-20`
   ) {
     card20.style.position = "absolute";
   }
@@ -444,8 +444,8 @@ if (initialValue21) {
 function cookies21() {
   if (
     card21.style.position === "" &&
-    currentDate.value >= `2022-12-021` &&
-    dayHeader.innerText >= `2022-12-021`
+    currentDate.value >= `2022-12-21` &&
+    dayHeader.innerText >= `2022-12-21`
   ) {
     card21.style.position = "absolute";
   }
@@ -463,8 +463,8 @@ if (initialValue22) {
 function cookies22() {
   if (
     card22.style.position === "" &&
-    currentDate.value >= `2022-12-022` &&
-    dayHeader.innerText >= `2022-12-022`
+    currentDate.value >= `2022-12-22` &&
+    dayHeader.innerText >= `2022-12-22`
   ) {
     card22.style.position = "absolute";
   }
@@ -482,8 +482,8 @@ if (initialValue23) {
 function cookies23() {
   if (
     card23.style.position === "" &&
-    currentDate.value >= `2022-12-023` &&
-    dayHeader.innerText >= `2022-12-023`
+    currentDate.value >= `2022-12-23` &&
+    dayHeader.innerText >= `2022-12-23`
   ) {
     card23.style.position = "absolute";
   }
@@ -501,8 +501,8 @@ if (initialValue24) {
 function cookies24() {
   if (
     card24.style.position === "" &&
-    currentDate.value >= `2022-12-024` &&
-    dayHeader.innerText >= `2022-12-024`
+    currentDate.value >= `2022-12-24` &&
+    dayHeader.innerText >= `2022-12-24`
   ) {
     card24.style.position = "absolute";
   }
@@ -511,20 +511,46 @@ function cookies24() {
 }
 
 // Card - 25 -----------------------------------------------
-const card25 = getCard(25);
-let initialValue25 = localStorage.getItem(`card-25`);
-if (initialValue25) {
-  card25.style.position = initialValue25;
-}
+// Get Modal
+const modal = document.getElementById("modal");
+const video = document.getElementById("video");
 
+// HandleCLick function to Display Modal If Current Date = 25
 function cookies25() {
   if (
-    card25.style.position === "" &&
-    currentDate.value >= `2022-12-025` &&
-    dayHeader.innerText >= `2022-12-025`
+    currentDate.value >= `2022-12-25` &&
+    dayHeader.innerText >= `2022-12-25`
   ) {
-    card25.style.position = "absolute";
+    modal.style.display = "block";
+    video.innerHTML = `
+    <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/R6g8H13lqpE?autoplay=1"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+    `;
   }
-
-  localStorage.setItem(`card-25`, card25.style.position);
 }
+
+// Remove Modal if clicked outside frame
+window.onclick = function (e) {
+  if (e.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
+/*
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/R6g8H13lqpE?autoplay=1"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+*/
